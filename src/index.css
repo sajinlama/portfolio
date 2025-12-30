@@ -7,6 +7,37 @@
   src: url('https://fonts.cdnfonts.com/css/matrix') format('woff2');
 }
 
+@keyframes floatLR {
+  0% {
+    transform: translateX(0) scale(1);
+  }
+  50% {
+    transform: translateX(10px) scale(1.02);
+  }
+  100% {
+    transform: translateX(0) scale(1);
+  }
+}
+
+@keyframes floatRL {
+  0% {
+    transform: translateX(0) scale(1);
+  }
+  50% {
+    transform: translateX(-10px) scale(1.02);
+  }
+  100% {
+    transform: translateX(0) scale(1);
+  }
+}
+
+.animate-float-lr {
+  animation: floatLR 6s ease-in-out infinite;
+}
+
+.animate-float-rl {
+  animation: floatRL 6s ease-in-out infinite;
+}
 
 :root{
   font-family: 'Press Start 2P';
