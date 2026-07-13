@@ -9,7 +9,11 @@ export default function Intro() {
     <div className="min-h-screen flex items-center justify-center relative">
       <div className="text-center space-y-6 z-10 max-w-3xl px-4">
         <h1 className="text-6xl font-bold text-emerald-500 mb-4 matrix-text">
-          SAJIN L. TAMANG
+          {/* Shows on mobile, hides on desktop */}
+          <span className="md:hidden">SAJIN LAMA</span>
+          
+          {/* Hides on mobile, shows on desktop */}
+          <span className="hidden md:inline">SAJIN L. TAMANG</span>
         </h1>
         <p className="text-3xl text-emerald-400 mb-4">Full Stack Developer</p>
         <p className="text-xl text-emerald-300 leading-relaxed mb-8 font-press-start">

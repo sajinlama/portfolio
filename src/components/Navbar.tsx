@@ -7,7 +7,11 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <span className="matrix-text text-emerald-500 font-bold text-xl tracking-wider">
-            SAJIN L. TAMANG
+            {/* Shows on mobile, hides on desktop */}
+            <span className="md:hidden">SAJIN LAMA</span>
+            
+            {/* Hides on mobile, shows on desktop */}
+            <span className="hidden md:inline">SAJIN L. TAMANG</span>
           </span>
           <SocialLinks />
         </div>
