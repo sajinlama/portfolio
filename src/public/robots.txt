@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://sajintamang.com.np/sitemap.xml
