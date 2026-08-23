@@ -2,18 +2,76 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="./src/assets/weed.png" />
-    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Sajin L. Tamang | Software Developer Portfolio</title>
-<meta name="description" content="Sajin L. Tamang — software developer portfolio. Projects, skills, and contact information." />
-<meta name="keywords" content="Sajin Tamang, Sajin L. Tamang, software developer, portfolio" />
-<meta name="author" content="Sajin L. Tamang" />
-<link rel="canonical" href="https://sajintamang.com.np/" />
+
+    <!-- Favicon (Moved to /public folder) -->
+    <link rel="icon" type="image/png" href="/favicon.png" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet" />
+
+    <!-- Primary Metadata -->
+    <title>Sajin L. Tamang | Software Developer Portfolio</title>
+    <meta name="title" content="Sajin L. Tamang | Software Developer Portfolio" />
+    <meta name="description" content="Sajin L. Tamang — Software Developer and Engineer based in Nepal. Explore web applications, open-source projects (pingWatch, DevChat), and full-stack systems." />
+    <meta name="keywords" content="Sajin Tamang, Sajin L. Tamang, sajinlama, Software Developer, Full Stack Developer Nepal, pingWatch, DevChat" />
+    <meta name="author" content="Sajin L. Tamang" />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
+    <link rel="canonical" href="https://sajintamang.com.np/" />
+
+    <!-- Open Graph / Facebook / LinkedIn -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://sajintamang.com.np/" />
+    <meta property="og:title" content="Sajin L. Tamang | Software Developer Portfolio" />
+    <meta property="og:description" content="Official developer portfolio of Sajin L. Tamang. Discover projects, technical stack, and software engineering work." />
+    <meta property="og:image" content="https://sajintamang.com.np/og-image.png" />
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://sajintamang.com.np/" />
+    <meta name="twitter:title" content="Sajin L. Tamang | Software Developer Portfolio" />
+    <meta name="twitter:description" content="Official developer portfolio of Sajin L. Tamang. Software engineer building full-stack web applications." />
+    <meta name="twitter:image" content="https://sajintamang.com.np/og-image.png" />
+
+    <!-- JSON-LD Structured Data for Google Entity Graph -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Sajin Tamang",
+      "alternateName": ["Sajin L. Tamang", "sajinlama"],
+      "url": "https://sajintamang.com.np",
+      "sameAs": [
+        "https://github.com/sajinlama"
+      ],
+      "jobTitle": "Software Developer",
+      "knowsAbout": [
+        "React",
+        "TypeScript",
+        "Node.js",
+        "PostgreSQL",
+        "Web Development",
+        "Uptime Monitoring"
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "NP"
+      }
+    }
+    </script>
   </head>
   <body>
-    <div id="root"></div>
+    <div id="root">
+      <!-- Static fallback parsed instantly by search crawlers before React JS hydration -->
+      <noscript>
+        <header>
+          <h1>Sajin L. Tamang — Software Developer</h1>
+          <p>Full-stack developer building real-time applications, web systems, and uptime monitoring tools.</p>
+        </header>
+      </noscript>
+    </div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
