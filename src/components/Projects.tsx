@@ -1,6 +1,8 @@
 import React from "react";
 import devchatImg from "../assets/devchat.png";
 import tutorImg from "../assets/tutor.png";
+import pingwatch from "../assets/pingwatch.png";
+import AIhealth from "../assets/aihealth.png"
 
 function GithubIcon({ className = "w-7 h-7" }: { className?: string }) {
   return (
@@ -28,6 +30,14 @@ export default function Projects() {
       description: "Real-time code, chat & video collaboration platform",
       animation: "animate-float-lr",
     },
+     {
+       
+      name : "Ai-Health App",
+      image: AIhealth,
+      github: "https://github.com/sajinlama/Health-ai-system",
+      description:"Al-Powered Health Recommendations, Personalized for",
+       animation: "animate-float-lr",
+    },
     {
       name: "Tutor App",
       image: tutorImg,
@@ -35,6 +45,14 @@ export default function Projects() {
       description: "AI-powered tutoring with progress & performance tracking",
       animation: "animate-float-rl",
     },
+    {
+      name : "Bisaric Watch",
+      image: pingwatch,
+      github: "https://github.com/sajinlama/pingWatch",
+      description:"24/7 monitors your app and website ",
+       animation: "animate-float-rl",
+    },
+   
   ];
 
   return (
